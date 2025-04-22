@@ -109,5 +109,4 @@ wadllib==1.3.6
 wcwidth==0.2.13
 wordcloud==1.9.4
 xdg==5
-xkit==0.0.0
 zipp==1.0.0
