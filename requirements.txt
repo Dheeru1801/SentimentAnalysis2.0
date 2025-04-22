@@ -96,7 +96,6 @@ six==1.16.0
 smmap==5.0.2
 stack-data==0.6.3
 streamlit==1.44.1
-systemd-python==234
 tenacity==9.1.2
 threadpoolctl==3.6.0
 toml==0.10.2
@@ -105,8 +104,6 @@ tqdm==4.67.1
 traitlets==5.14.3
 typing_extensions==4.13.2
 tzdata==2025.2
-ubuntu-advantage-tools==8001
-ubuntu-drivers-common==0.0.0
 ufw==0.36.1
 unattended-upgrades==0.1
 urllib3==1.26.5
