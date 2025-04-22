@@ -1,20 +1,25 @@
 """
 Natural Language Processing utilities for the Sentiment Analysis Dashboard.
 """
-
+import os
 import re
 import nltk
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
 import streamlit as st
 from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk import pos_tag
 
+from nltk import pos_tag
+nltk_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "nltk_data"))
+nltk.data.path.append(nltk_path)
 # Change from relative to absolute import
 from config import settings
 
+nltk.data.path.append("app/utils/nltk_data")
+
+
 # Download necessary NLTK data
-@st.cache_data
+# @st.cache_data
 def download_nltk_data():
     """
     Download the necessary NLTK data resources.
