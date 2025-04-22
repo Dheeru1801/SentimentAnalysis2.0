@@ -14,7 +14,6 @@ from nltk import pos_tag
 from config import settings
 
 # Download necessary NLTK data
-@st.cache_data
 def download_nltk_data():
     """
     Download the necessary NLTK data resources.
