@@ -17,8 +17,6 @@ dbus-python==1.2.18
 debugpy==1.8.14
 decorator==5.2.1
 distro==1.7.0
-distro-info==1.1+ubuntu0.2
-duplicity==0.8.21
 exceptiongroup==1.2.2
 executing==2.2.0
 fasteners==0.14.1
