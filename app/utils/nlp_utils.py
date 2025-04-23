@@ -175,4 +175,4 @@ def get_overall_sentiment(sentiment_list):
     elif neg_count > pos_count and neg_count > total * 0.5:
         return "Negative"
     else:
-        return "Neutral"
+        return "Neutral"    

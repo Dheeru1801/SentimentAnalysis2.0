@@ -404,5 +404,7 @@ with tabs[3]:
 st.markdown("""
 <div style='text-align: center; margin-top: 30px'>
     <p style='color: #666; font-size: 14px;'>Sentiment Analysis Dashboard • Created with Streamlit</p>
+    <br>
+    <p style='color: #666; font-size: 14px;'>© Author - Dheeraj Chandra</p>
 </div>
 """, unsafe_allow_html=True)
